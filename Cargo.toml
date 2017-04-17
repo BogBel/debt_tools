@@ -1,0 +1,6 @@
+[package]
+name = "debt_tools2"
+version = "0.1.0"
+authors = ["Eric Prykhodko <eprykhodko@getgoing.com>"]
+
+[dependencies]
