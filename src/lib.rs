@@ -12,7 +12,7 @@ mod tests {
     }
 
     #[test]
-    fn check_negative_sun() {
+    fn check_negative_sum() {
         assert_eq!(-5, add(-2, -3))
     }
 
