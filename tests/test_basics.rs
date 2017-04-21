@@ -16,7 +16,7 @@ fn check_zero_sum(){
 }
 
 #[test]
-#[should_panic]
+#[should_panic(expected = "attempt to add with overflow")]
 fn check_overflow(){
     let max_val = i32::max_value();
     debt_tools::add(max_val, 1);
